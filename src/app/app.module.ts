@@ -9,18 +9,22 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { GenerateQRCodeComponent } from './components/generate-qrcode/generate-qrcode.component';
 import { FormsModule } from '@angular/forms';
+import { ScanQRCodeComponent } from './components/scan-qrcode/scan-qrcode.component';
+import { ZXingScannerModule } from '@zxing/ngx-scanner';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GenerateQRCodeComponent
+    GenerateQRCodeComponent,
+    ScanQRCodeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     QRCodeModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    FormsModule
+    FormsModule,
+    ZXingScannerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

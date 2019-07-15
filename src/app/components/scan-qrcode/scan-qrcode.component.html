@@ -1,0 +1,16 @@
+<div class="mt-3 row ml-auto mr-auto">
+    <div class="row col-12 ml-auto mr-auto">
+        <label *ngIf="!qrCodeScannerEnabled && qrCodeText == null" class="alert alert-danger ml-auto mr-auto">You have
+            to grant the camera privileges</label>
+
+        <label *ngIf="qrCodeScannerEnabled && qrCodeText == null" class="alert alert-info ml-auto mr-auto">Scan a QR code</label>
+        
+        <label *ngIf="!qrCodeScannerEnabled && qrCodeText != null" class="alert alert-info ml-auto mr-auto">{{qrCodeText}}</label>
+    </div>
+    <div class="row col-12 ml-auto mr-auto">
+        <zxing-scanner class="ml-auto mr-auto" [class.d-none]="!qrCodeScannerEnabled" #qrcodescanner
+            [enable]="qrCodeScannerEnabled" (camerasNotFound)="camerasNotFound" (camerasFound)="camerasFound($event)"
+            (scanSuccess)="scanSuccess($event)">
+        </zxing-scanner>
+    </div>
+</div>

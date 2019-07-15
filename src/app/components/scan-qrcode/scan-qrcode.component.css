@@ -1,0 +1,6 @@
+:host zxing-scanner::ng-deep {
+    max-height: 90vh;
+    width: 70vw;
+    object-fit: contain;
+    border: 2px solid black;
+  }
