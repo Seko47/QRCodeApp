@@ -18,4 +18,8 @@
   </li>
 </ul>
 
+<button *ngIf="Pwa.promptInstallEvent" (click)="installPwa()">
+  Install App
+</button>
+
 <router-outlet></router-outlet>
