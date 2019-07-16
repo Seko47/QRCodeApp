@@ -15,11 +15,11 @@
     </ul>
   </div>
 </nav>
-
-<button *ngIf="Pwa.promptInstallEvent" (click)="installPwa()">
-  Install App
-</button>
-
+<div *ngIf="Pwa.promptInstallEvent" class="row alert alert-success ml-auto mr-auto">
+  <button class="btn btn-primary ml-auto mr-auto" (click)="installPwa()">
+    Install App
+  </button>
+</div>
 <router-outlet></router-outlet>
 
 <footer class="page-footer font-small text-secondary bg-dark fixed-bottom" id="footer">
