@@ -5,7 +5,7 @@ import { ScanQRCodeComponent } from './components/scan-qrcode/scan-qrcode.compon
 
 
 const routes: Routes = [
-  { path: "generate", component: GenerateQRCodeComponent },
+  { path: "", component: GenerateQRCodeComponent },
   { path: "scan", component: ScanQRCodeComponent }
 ];
 
