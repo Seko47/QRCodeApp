@@ -1,0 +1,76 @@
+{
+  "configVersion": 1,
+  "timestamp": 1563310187713,
+  "index": "https://seko47.github.io/QRCodeApp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://seko47.github.io/QRCodeApp/favicon.ico",
+        "https://seko47.github.io/QRCodeApp/index.html",
+        "https://seko47.github.io/QRCodeApp/main.9b1409545e0c692e4689.js",
+        "https://seko47.github.io/QRCodeApp/polyfills-es5.93893f560e403d23958a.js",
+        "https://seko47.github.io/QRCodeApp/polyfills.2d938c2725dce5a6a7bb.js",
+        "https://seko47.github.io/QRCodeApp/runtime.465c2333d355155ec5f3.js",
+        "https://seko47.github.io/QRCodeApp/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://seko47.github.io/QRCodeApp/assets/icons/icon-128x128.png",
+        "https://seko47.github.io/QRCodeApp/assets/icons/icon-144x144.png",
+        "https://seko47.github.io/QRCodeApp/assets/icons/icon-152x152.png",
+        "https://seko47.github.io/QRCodeApp/assets/icons/icon-192x192.png",
+        "https://seko47.github.io/QRCodeApp/assets/icons/icon-384x384.png",
+        "https://seko47.github.io/QRCodeApp/assets/icons/icon-512x512.png",
+        "https://seko47.github.io/QRCodeApp/assets/icons/icon-72x72.png",
+        "https://seko47.github.io/QRCodeApp/assets/icons/icon-96x96.png",
+        "https://seko47.github.io/QRCodeApp/assets/icons/qr-code.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://seko47.github.io/QRCodeApp/assets/icons/icon-128x128.png": "fb90f9cbd5fe99e995bcab65b7fb6dd77720009a",
+    "https://seko47.github.io/QRCodeApp/assets/icons/icon-144x144.png": "b72664de43a0983906857decf0d22b805c20c8ca",
+    "https://seko47.github.io/QRCodeApp/assets/icons/icon-152x152.png": "175169754615f160cddf57fcc079cfcee55c86e1",
+    "https://seko47.github.io/QRCodeApp/assets/icons/icon-192x192.png": "7f44e840bc0b5d59bf8f6c134564ca83682987f9",
+    "https://seko47.github.io/QRCodeApp/assets/icons/icon-384x384.png": "6ddf985a99ce23e25cf4219da9b6923aa0c05579",
+    "https://seko47.github.io/QRCodeApp/assets/icons/icon-512x512.png": "395e9de9a9ecd86b8af51d63b8c88d5043385c8b",
+    "https://seko47.github.io/QRCodeApp/assets/icons/icon-72x72.png": "ae46f41bac7bc8cf768891043c0ec42f9494dd0c",
+    "https://seko47.github.io/QRCodeApp/assets/icons/icon-96x96.png": "09fde3577d311546020ae3f3f66740efb109cb17",
+    "https://seko47.github.io/QRCodeApp/assets/icons/qr-code.png": "1ccd0b6ac3b72758a0246bb58c39e4f32a704327",
+    "https://seko47.github.io/QRCodeApp/favicon.ico": "ed92d092620a44aa1aba4ea193c9abdd68552006",
+    "https://seko47.github.io/QRCodeApp/index.html": "588f648ab92adf390388bb369e5358ff35011be0",
+    "https://seko47.github.io/QRCodeApp/main.9b1409545e0c692e4689.js": "a3dacff5b4d3c5f70bf36f8f66ab251aa3db852a",
+    "https://seko47.github.io/QRCodeApp/polyfills-es5.93893f560e403d23958a.js": "7b6872891aaf8fcb6987dfd987900f0be4f1a956",
+    "https://seko47.github.io/QRCodeApp/polyfills.2d938c2725dce5a6a7bb.js": "713b0aeade3e0fd2f4c5083eecbe64be2359d4c7",
+    "https://seko47.github.io/QRCodeApp/runtime.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://seko47.github.io/QRCodeApp/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
