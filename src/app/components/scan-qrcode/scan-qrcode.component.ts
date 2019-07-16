@@ -37,7 +37,7 @@ export class ScanQRCodeComponent implements OnInit {
     window.open(this.qrCodeTextURL, "_blank");
   }
 
-  copyText(val: string){
+  copyText(){
     let selBox = document.createElement('textarea');
     selBox.style.position = 'fixed';
     selBox.style.left = '0';
